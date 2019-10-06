@@ -1,6 +1,5 @@
 {
   "name": "MenuApp",
-  "version": "0.0.1",
   "description": "UI project for JHU coursera course5-m4",
   "main": "index.html",
   "repository": "git@github.com:jlollis/course5-module4.git",
@@ -8,12 +7,11 @@
   "license": "MIT",
   "dependencies": {
     "@uirouter/angularjs": "^1.0.23",
-    "angular-route": "1.7.x",
     "angular": "^1.7.8",
     "bootstrap": "3.4.x"
   },
   "devDependencies": {
-    // "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
     "yarn": "1.19.x"
   }
 }
