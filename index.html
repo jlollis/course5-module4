@@ -1,38 +1,29 @@
 <!DOCTYPE html>
-
-<html lang="en" ng-app="MenuApp">
+<html ng-app='MenuApp'>
   <head>
     <meta charset="utf-8">
-    <title>MenuApp</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="lib/angular.min.js"></script>
-    <script src="lib/angular-animate.min.js"></script>
-    <script src="lib/angular-ui-router.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Restaurant</title>
   </head>
-
   <body>
-    <div class="buklau">
-      <h1>Chinese Boo Sack Noodle Restaurant</h1>
-      <h2>What you wanna order?!</h2>
+    <h1>Welcome to our Restaurant</h1>
 
-      <img src="img/buk_lau.png" alt="Buk Lau" height="320" width="550" class="img-responsive img-circle margin">
+    <ui-view></ui-view>
 
+    <!-- Libraries -->
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
 
-      <!-- Inject views here -->
-      <!-- <div ui-view></div> -->
-      <ui-view></ui-view>
+    <!-- Modules -->
+    <script src="src/menuapp.module.js"></script>
+    <script src="src/data.module.js"></script>
 
-    </div>
+    <!-- Module artifacts -->
+    <script src="src/menudata.service.js"></script>
+    <script src="src/categories.component.js"></script>
+    <script src="src/items.component.js"></script>
+    <script src="src/routes.js"></script>
+    <script src="src/categories.controller.js"></script>
+    <script src="src/items.controller.js"></script>
 
-    <script src="src/menuapp/js/categories.component.js"></script>
-    <script src="src/menuapp/js/categories.controller.js"></script>
-    <script src="src/menuapp/js/items.component.js"></script>
-    <script src="src/menuapp/js/items.controller.js"></script>
-    <script src="src/menuapp/js/menuapp.module.js"></script>
-    <script src="src/menuapp/js/routes.js"></script>
   </body>
 </html>
