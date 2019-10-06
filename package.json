@@ -1,0 +1,16 @@
+{
+  "name": "module-4",
+  "version": "0.0.1",
+  "description": "UI project for JHU coursera course5-m4",
+  "main": "index.js",
+  "repository": "git@github.com:jlollis/course5-module4.git",
+  "author": "Julie Lollis",
+  "license": "MIT",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.23",
+    "angular": "^1.7.8"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

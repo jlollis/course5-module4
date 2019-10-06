@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="MenuApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Restaurant Menu Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-animate.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Welcome to the Jungle</h1>
+
+      <!-- Inject views here -->
+      <!-- <div ui-view></div> -->
+      <ui-view></ui-view>
+
+    </div>
+
+    <script src="src/menuapp/js/categories.component.js"></script>
+    <script src="src/menuapp/js/categories.controller.js"></script>
+    <script src="src/menuapp/js/items.component.js"></script>
+    <script src="src/menuapp/js/items.controller.js"></script>
+    <script src="src/menuapp/js/menuapp.module.js"></script>
+    <script src="src/menuapp/js/routes.js"></script>
+  </body>
+</html>
